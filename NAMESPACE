@@ -30,5 +30,10 @@ export(stop_capture)
 export(stop_capture_all)
 export(testr_options)
 export(undecorate)
+
+export(test_package_tests)
+export(test_package_vignettes)
+export(test_package_examples)
+
 importFrom(Rcpp,evalCpp)
 useDynLib(testr)
